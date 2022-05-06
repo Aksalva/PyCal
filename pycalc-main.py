@@ -15,7 +15,6 @@ e=Entry(root, width=20, borderwidth=5, font="Consolas 22")
 e.grid(row=0,column=0, columnspan=4, padx=2, pady=10)
 
 #Insert character in input box
-
 def onclick(inp):
     cur=e.get()     #get expression currrently in input box
     e.delete(0, END)
